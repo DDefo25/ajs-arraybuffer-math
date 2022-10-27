@@ -1,10 +1,10 @@
 import Character from "./Character";
 
 export default class Undead extends Character {
-    constructor( params ) {
+    constructor(params) {
         params.attack = 25;
         params.defence = 25;
-        params.type = 'Undead';
+        params.type = "Undead";
         super(params);
     }
 }
