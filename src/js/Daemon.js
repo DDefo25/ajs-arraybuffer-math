@@ -1,9 +1,9 @@
-import Character from "./Character";
+import StatMath from "./StatMath";
 
-export default class Daemon extends Character {
-    constructor(name, type = "Daemon") {
-        super(name, type);
-        this.attack = 10;
+export default class Daemon extends StatMath {
+    constructor(name, type = "Daemon", ...args) {
+        super(name, type, ...args);
         this.defence = 40;
+        this.attack = 100;
     }
 }

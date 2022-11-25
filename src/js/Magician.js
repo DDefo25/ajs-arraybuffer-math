@@ -1,9 +1,9 @@
-import Character from "./Character";
+import StatMath from "./StatMath";
 
-export default class Magician extends Character {
+export default class Magician extends StatMath {
     constructor(name, type = "Magician") {
         super(name, type);
-        this.attack = 10;
+        this.attack = 100;
         this.defence = 40;
     }
 }
